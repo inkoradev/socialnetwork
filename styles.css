@@ -1,0 +1,151 @@
+/* Basic reset and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #3b5998;
+  }
+  
+  header {
+    background-color: #3b5998;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav button {
+    background-color: #4267b2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav button:hover {
+    background-color: #365899;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .section {
+    display: none;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #365899;
+  }
+  
+  footer {
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Specific Styles for the Home Section */
+  #friends-list {
+    margin-top: 20px;
+  }
+  
+  .friend {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .friend h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .friend p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .friend button {
+    background-color: #4267b2;
+    color: white;
+    padding: 8px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .friend button:hover {
+    background-color: #365899;
+  }
+  

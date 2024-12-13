@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inkora Social - Home</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <header>
+    <h1>Inkora Social</h1>
+    <nav>
+      <ul>
+        <li><button onclick="showSection('home')">Home</button></li>
+        <li><button onclick="showSection('posts')">Posts</button></li>
+        <li><button onclick="showSection('create')">Create</button></li>
+        <li><button onclick="showSection('profile')">Profile</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- Home Section -->
+    <div id="home" class="section">
+      <h2>Friends' Feed</h2>
+      <div id="friends-list">
+        <!-- Friends and their posts will appear here -->
+      </div>
+    </div>
+
+    <!-- Posts Section -->
+    <div id="posts" class="section">
+      <h2>Your Posts</h2>
+      <div id="user-posts">
+        <!-- User posts will appear here -->
+      </div>
+    </div>
+
+    <!-- Create Section -->
+    <div id="create" class="section">
+      <h2>Create Post</h2>
+      <textarea id="new-post" placeholder="Write something..."></textarea>
+      <button onclick="createPost()">Create Post</button>
+    </div>
+
+    <!-- Profile Section -->
+    <div id="profile" class="section">
+      <h2>Your Profile</h2>
+      <p>Profile details here...</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 Inkora Social</p>
+  </footer>
+
+  <script src="home.js"></script>
+</body>
+</html>
